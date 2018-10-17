@@ -1,0 +1,51 @@
+﻿@model _03_MVC_Ejercicio1.Models.clsListadoPersona
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Listado</title>
+</head>
+<body>
+	@{
+		int count = 0;
+		int count2 = 0;
+	}
+	<ul>
+		@foreach (var persona in Model.listadoPersona())
+		{
+			count = count + 1;
+			<p>------------------Persona @count------------------</p>
+			<li>@persona.idPersona</li>
+			<li>@persona.nombre</li>
+			<li>@persona.apellidos</li>
+			<li>@persona.fechNacimiento</li>
+			<li>@persona.direccion</li>
+			<li>@persona.telefono</li>
+		}
+	</ul>
+
+	<table style="width:100%" border="1">
+		
+			@foreach (var persona in Model.listadoPersona())
+			{
+				count2 = count2 + 1;
+		<tr>
+			<th>Persona @count2</th>
+			<th>@persona.idPersona</th>
+			<th>@persona.nombre</th>
+			<th>@persona.apellidos</th>
+			<th>@persona.fechNacimiento</th>
+			<th>@persona.direccion</th>
+			<th>@persona.telefono</th>
+		</tr>
+			}
+		
+	</table>
+
+</body>
+</html>

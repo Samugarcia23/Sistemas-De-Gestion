@@ -68,8 +68,8 @@ C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\03-MVC-Ejercicio1\03-MVC-Ejerc
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\03-MVC-Ejercicio1\03-MVC-Ejercicio1\03-MVC-Ejercicio1\bin\es\System.Web.Webpages.Razor.resources.dll
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\03-MVC-Ejercicio1\03-MVC-Ejercicio1\03-MVC-Ejercicio1\bin\es\System.Web.Helpers.resources.dll
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\03-MVC-Ejercicio1\03-MVC-Ejercicio1\03-MVC-Ejercicio1\bin\es\System.Web.Mvc.resources.dll
-C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\03-MVC-Ejercicio1\03-MVC-Ejercicio1\03-MVC-Ejercicio1\obj\Debug\03-MVC-Ejercicio1.csprojAssemblyReference.cache
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\03-MVC-Ejercicio1\03-MVC-Ejercicio1\03-MVC-Ejercicio1\obj\Debug\03-MVC-Ejercicio1.csproj.CoreCompileInputs.cache
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\03-MVC-Ejercicio1\03-MVC-Ejercicio1\03-MVC-Ejercicio1\obj\Debug\03-MVC-Ejercicio1.csproj.CopyComplete
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\03-MVC-Ejercicio1\03-MVC-Ejercicio1\03-MVC-Ejercicio1\obj\Debug\03-MVC-Ejercicio1.dll
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\03-MVC-Ejercicio1\03-MVC-Ejercicio1\03-MVC-Ejercicio1\obj\Debug\03-MVC-Ejercicio1.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas de Gestion\03-MVC-Ejercicio1\03-MVC-Ejercicio1\03-MVC-Ejercicio1\obj\Debug\03-MVC-Ejercicio1.csprojAssemblyReference.cache

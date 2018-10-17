@@ -12,8 +12,18 @@
 </head>
 <body>
 	<h2>Home</h2>
-    <div>
-		<p>Hola, la Fecha Actual es:  @ViewData["Fecha"]</p>
-    </div>
+	<div>
+		<p>Hola @ViewData["Saludo"], la Fecha Actual es:  <b>@ViewBag.Fecha</b></p>
+		<p><b>-----------------------------------------------------------------------------------------</b></p>
+		<p>Sus Datos son:</p>
+		<p><b>Id:</b> @Model.idPersona</p>
+		<p><b>Nombre:</b> @Model.nombre</p>
+		<p><b>Apellidos:</b> @Model.apellidos</p>
+		<p><b>Fecha de Nacimiento:</b> @Model.fechNacimiento</p>
+		<p><b>Direccion:</b> @Model.direccion</p>
+		<p><b>Telefono:</b> @Model.telefono</p>
+		<p><b>@Html.ActionLink("Ver listado de Personas", "Listado", "Home")</b></p>
+
+	</div>
 </body>
 </html>
