@@ -1,0 +1,29 @@
+﻿@model  _05_VistaAControlador_MVC.Models.clsPersona
+
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Editar Datos Personales</title>
+</head>
+<body>
+	@using (Html.BeginForm(FormMethod.Post))
+	{
+		@Html.ValidationSummary(true);
+
+		<p>Nombre: <input type="text" name=""/></p>
+		<p>Apellido: @Html.TextBox(Model.apellidos)</p>
+		<p>Id: @Html.TextBoxFor(m => m.idPersona, new { @class = "form-control" })</p>
+		<p>Direccion: @Html.TextBoxFor(m => m.direccion, new { @class = "form-control" })</p>
+		<p>Telefono: @Html.TextBoxFor(m => m.telefono, new { @class = "form-control" })</p>
+		<p>Fecha de Nacimiento: @Html.TextBoxFor(m => m.fechNacimiento, new { @class = "form-control" })</p>
+		<p><input type="submit" value="Enviar" /></p>
+
+	}
+</body>
+</html>
