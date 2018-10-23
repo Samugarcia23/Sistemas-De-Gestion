@@ -12,18 +12,24 @@
 	<title>Editar Datos Personales</title>
 </head>
 <body>
+
+	<!--Creacion de un formulario con los datos de la persona mediante HtmlHelper-->
+
 	@using (Html.BeginForm(FormMethod.Post))
 	{
 		@Html.ValidationSummary(true);
 
-		<p>Nombre: <input type="text" name=""/></p>
-		<p>Apellido: @Html.TextBox(Model.apellidos)</p>
+		<!--<p>Nombre: <input type="text" name="nombre"/></p>
+		<p>Apellido: @Html.TextBox(Model.apellidos, null, new { @class = "form-control" })</p>-->
+
+		<p>Nombre: @Html.TextBoxFor(m => m.nombre, new { @class = "form-control" })</p>
+		<p>Apellido: @Html.TextBoxFor(m => m.apellidos, new { @class = "form-control" })</p>
 		<p>Id: @Html.TextBoxFor(m => m.idPersona, new { @class = "form-control" })</p>
 		<p>Direccion: @Html.TextBoxFor(m => m.direccion, new { @class = "form-control" })</p>
 		<p>Telefono: @Html.TextBoxFor(m => m.telefono, new { @class = "form-control" })</p>
 		<p>Fecha de Nacimiento: @Html.TextBoxFor(m => m.fechNacimiento, new { @class = "form-control" })</p>
 		<p><input type="submit" value="Enviar" /></p>
-
 	}
+
 </body>
 </html>

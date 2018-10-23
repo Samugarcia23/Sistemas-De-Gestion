@@ -15,7 +15,7 @@ namespace _05_VistaAControlador_MVC.Controllers
 		/// Priimera Peticion de la vista Editar
 		/// creamos un objeto de la clase persona y se lo enviamos a la vista
 		/// </summary>
-		/// <returns></returns>
+		/// <returns>Los datos de la persona a la vista Editar</returns>
         public ActionResult Editar()
         {
 			//Declaracion de variables
@@ -36,16 +36,11 @@ namespace _05_VistaAControlador_MVC.Controllers
 		/// Envio del usuario desde la vista al controlador con los datos modificados
 		/// </summary>
 		/// <param name="oPersona"></param>
-		/// <returns></returns>
+		/// <returns>La vista PersonaModificada con los nuevos Datos</returns>
 		[HttpPost]
 		public ActionResult Editar(clsPersona oPersona)
 		{
-			return View();
-		}
-
-		public ActionResult Mostrar()
-		{
-			return View();
+			return View("PersonaModificada", oPersona);
 		}
     }
 }

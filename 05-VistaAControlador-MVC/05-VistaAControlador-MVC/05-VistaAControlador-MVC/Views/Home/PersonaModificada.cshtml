@@ -1,17 +1,31 @@
-﻿
+﻿@model  _05_VistaAControlador_MVC.Models.clsPersona
+
 @{
-    Layout = null;
+	Layout = null;
 }
 
 <!DOCTYPE html>
 
 <html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Persona Modificada</title>
-</head>
-<body>
-    <p>Estos son tus datos modificados:</p>
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<title>Persona Modificada</title>
+	</head>
+	<body>
 
-</body>
+		<!--Condicion para asegurar que todos los campos están rellenos
+			Cargamos los campos modificados en Editar-->
+		<br/><br/><p>Estos son tus datos modificados:</p>
+		@if (Model.nombre != null && Model.apellidos != null && Model.idPersona != 0 && Model.direccion != null && Model.fechNacimiento != null && Model.telefono != null)
+		{
+			<br /><ul>
+				<li><label>Nombre: @Model.nombre</label></li>
+				<li><label>Apellidos: @Model.apellidos</label></li>
+				<li><label>Id: @Model.idPersona</label></li>
+				<li><label>Fecha de Nacimiento: @Model.fechNacimiento</label></li>
+				<li><label>Direccion: @Model.direccion</label></li>
+				<li><label>Telefono: @Model.telefono</label></li>
+			</ul>
+		}else{<div><b> Datos eróneos, asegúrate de que has rellenado todos los campos correctamente! </b></div>}
+		</body>
 </html>
