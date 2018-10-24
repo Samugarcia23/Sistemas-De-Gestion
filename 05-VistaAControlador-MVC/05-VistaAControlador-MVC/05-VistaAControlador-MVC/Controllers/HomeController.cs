@@ -1,4 +1,5 @@
 ﻿using _05_VistaAControlador_MVC.Models;
+using _05_VistaAControlador_MVC.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,18 +20,12 @@ namespace _05_VistaAControlador_MVC.Controllers
         public ActionResult Editar()
         {
 			//Declaracion de variables
-			clsPersona oPersona = new clsPersona();
+			List<clsDepartamento> lista = new List<clsDepartamento>();
+			clsPersonaEnListadoDepartamentos persona = new clsPersonaEnListadoDepartamentos(1, "Samuel", "Garcia Preciado", new DateTime(), "Calle Falsa", "9999999999", 1, lista);
 
-			//Creacion del objeto persona y adicion de las propiedades
-			oPersona.nombre = "Samuel";
-			oPersona.apellidos = "Garcia Preciado";
-			oPersona.fechNacimiento = new DateTime(1997, 10, 29);
-			oPersona.direccion = "Calle Falsa n/123";
-			oPersona.telefono = "666666666";
-			oPersona.idPersona = 01;
-
-			return View(oPersona);
+			return View(persona);
         }
+
 
 		/// <summary>
 		/// Envio del usuario desde la vista al controlador con los datos modificados
@@ -38,9 +33,10 @@ namespace _05_VistaAControlador_MVC.Controllers
 		/// <param name="oPersona"></param>
 		/// <returns>La vista PersonaModificada con los nuevos Datos</returns>
 		[HttpPost]
-		public ActionResult Editar(clsPersona oPersona)
+		public ActionResult Editar(clsPersonaEnListadoDepartamentos persona)
 		{
-			return View("PersonaModificada", oPersona);
+			//TODO Codigo para relacionar cada persona con su departamento
+			return View("PersonaModificada");
 		}
-    }
+	}
 }

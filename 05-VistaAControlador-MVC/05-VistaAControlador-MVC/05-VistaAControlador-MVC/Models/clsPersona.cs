@@ -16,7 +16,7 @@ namespace _05_VistaAControlador_MVC.Models
 		}
 		#endregion
 		#region Constructor por parametros
-		public clsPersona(int idPersona, String nombre, String apellidos, DateTime fechNacimiento, String direccion, String telefono)
+		public clsPersona(int idPersona, String nombre, String apellidos, DateTime fechNacimiento, String direccion, String telefono, int idDepartamento)
 		{
 			this.idPersona = idPersona;
 			this.nombre = nombre;
@@ -24,6 +24,7 @@ namespace _05_VistaAControlador_MVC.Models
 			this.fechNacimiento = fechNacimiento;
 			this.direccion = direccion;
 			this.telefono = telefono;
+			this.idDepartamento = idDepartamento;
 		}
 		#endregion
 		#region atributos_Persona
@@ -33,6 +34,7 @@ namespace _05_VistaAControlador_MVC.Models
 		public DateTime fechNacimiento { get; set; }
 		public String direccion { get; set; }
 		public String telefono { get; set; }
+		public int idDepartamento { get; set; }
 		#endregion
 	}
 }
