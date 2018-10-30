@@ -36,7 +36,7 @@ namespace _05_VistaAControlador_MVC.Controllers
 		public ActionResult Editar(clsPersonaEnListadoDepartamentos persona)
 		{
 			//TODO Codigo para relacionar cada persona con su departamento
-			return View("PersonaModificada");
+			return View("PersonaModificada", persona);
 		}
 	}
 }

@@ -5,7 +5,7 @@ using System.Web;
 
 namespace _05_VistaAControlador_MVC.Models
 {
-	//DAL
+	//Hay que crearlo en una carpeta llamada DAL(Acceso de datos)
 	public class clsListadoDepartamentos
 	{
 		public List<clsDepartamento> listadoDepartamentos()

@@ -7,5 +7,6 @@ namespace _05_VistaAControlador_MVC.Models.ViewModels
 {
 	public class clsPersonaConNombreDepartamento:clsPersona
 	{
+		String nombreDepartamento;
 	}
 }

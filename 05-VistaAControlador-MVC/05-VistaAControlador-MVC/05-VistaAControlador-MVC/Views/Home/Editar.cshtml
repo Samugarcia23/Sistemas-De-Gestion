@@ -23,9 +23,9 @@
 		<p>Direccion: @Html.TextBoxFor(m => m.direccion)</p>
 		<p>Telefono: @Html.TextBoxFor(m => m.telefono)</p>
 		<p>Fecha de Nacimiento: @Html.TextBoxFor(m => m.fechNacimiento)</p>
-		<p>
-			@Html.DropDownListFor(m => m.listadoDepartamentos,
-			new SelectList(Model.listadoDepartamentos))	
+		<p>Departamento: 
+			@Html.DropDownListFor(m => m.idDepartamento,
+			new SelectList(Model.listadoDepartamentos, "idDepartamento", "nombreDepartamento"))	<!--Bucle que recorre el listado de departamentos-->
 		</p>
 		<p><input type="submit" value="Enviar" /></p>
 	}

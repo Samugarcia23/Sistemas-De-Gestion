@@ -1,0 +1,11 @@
+﻿
+@{
+	ViewBag.Title = "Index";
+}
+
+<h2>¿Primera vez aqui?</h2>
+
+<body>
+	<u><p style="margin-left:110px;">@Html.ActionLink("Entrar", "Index", "Home", new { esMiPrimeraVez = false }, null)<br><br></p></u>
+	<p style="margin-left:60px;">@ViewBag.texto</p>
+</body>

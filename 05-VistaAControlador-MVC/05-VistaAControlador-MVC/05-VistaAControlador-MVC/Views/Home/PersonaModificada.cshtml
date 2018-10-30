@@ -1,5 +1,4 @@
-﻿@model  _05_VistaAControlador_MVC.Models.clsPersona
-
+﻿@model  _05_VistaAControlador_MVC.Models.ViewModels.clsPersonaEnListadoDepartamentos
 @{
 	Layout = null;
 }
@@ -16,7 +15,7 @@
 		<!--Condicion para asegurar que todos los campos están rellenos
 			Cargamos los campos modificados en Editar-->
 		<br/><br/><p>Estos son tus datos modificados:</p>
-		@if (Model.nombre != null && Model.apellidos != null && Model.idPersona != 0 && Model.direccion != null && Model.fechNacimiento != null && Model.telefono != null)
+		@if (Model.nombre != null && Model.apellidos != null && Model.idPersona != 0 && Model.direccion != null && Model.fechNacimiento != null)
 		{
 			<br /><ul>
 				<li><label>Nombre: @Model.nombre</label></li>
@@ -25,7 +24,8 @@
 				<li><label>Fecha de Nacimiento: @Model.fechNacimiento</label></li>
 				<li><label>Direccion: @Model.direccion</label></li>
 				<li><label>Telefono: @Model.telefono</label></li>
+				<li><label>Departamento:  @Model.listadoDepartamentos</label></li>
 			</ul>
-		}else{<div><b> Datos eróneos, asegúrate de que has rellenado todos los campos correctamente! </b></div>}
+		}else{<div><b> Datos erróneos, asegúrate de que has rellenado todos los campos correctamente! </b></div>}
 		</body>
 </html>
