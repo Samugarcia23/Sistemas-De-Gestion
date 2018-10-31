@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<body>
+	@using (Html.BeginForm())
+	{
+		<label>Estado: @ViewData["Estado"]</label>
+		<br /><input type="submit" />
+	}
+	@Html.ActionLink("Ir al listado de personas", "")
+
+</body>
+
