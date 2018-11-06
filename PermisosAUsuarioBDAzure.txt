@@ -1,0 +1,3 @@
+Alter role db_owner add MEMBER Prueba
+Alter role db_datareader add MEMBER Prueba
+Alter role db_datawriter add MEMBER Prueba
