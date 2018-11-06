@@ -1,0 +1,6 @@
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\08-CRUDPersonas-Entidades.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\08-CRUDPersonas-Entidades.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\obj\Debug\08-CRUDPersonas-Entidades.csprojAssemblyReference.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\obj\Debug\08-CRUDPersonas-Entidades.csproj.CoreCompileInputs.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\obj\Debug\08-CRUDPersonas-Entidades.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\obj\Debug\08-CRUDPersonas-Entidades.pdb

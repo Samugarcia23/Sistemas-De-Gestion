@@ -1,0 +1,9 @@
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\08-CRUDPersonas-DAL.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\08-CRUDPersonas-DAL.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\08-CRUDPersonas-Entidades.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\08-CRUDPersonas-Entidades.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\obj\Debug\08-CRUDPersonas-DAL.csprojAssemblyReference.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\obj\Debug\08-CRUDPersonas-DAL.csproj.CoreCompileInputs.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\obj\Debug\08-CRUDPersonas-DAL.csproj.CopyComplete
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\obj\Debug\08-CRUDPersonas-DAL.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\obj\Debug\08-CRUDPersonas-DAL.pdb
