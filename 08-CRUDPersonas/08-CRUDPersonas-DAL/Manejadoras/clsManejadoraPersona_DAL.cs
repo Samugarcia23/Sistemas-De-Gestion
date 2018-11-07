@@ -138,15 +138,11 @@ namespace _08_CRUDPersonas_DAL.Manejadoras
 		/// Metodo que devuelve un nuevo objeto persona, creado desde la vista
 		/// </summary>
 		/// <returns>clsPersona</returns>
-		public int InsertarPersona_DAL(clsPersona persona)
+		public int InsertarPersona_DAL(clsPersona oPersona)
 		{
-			clsPersona oPersona = new clsPersona();
 			clsMyConnection miconexion = new clsMyConnection();
 			SqlConnection sqlconnection = null;
 			SqlCommand sqlCommand = new SqlCommand();
-			SqlDataReader lector = null;
-			List<clsPersona> lista = new List<clsPersona>();
-			SqlParameter param = new SqlParameter();
 			int filas;
 
 			try
@@ -165,9 +161,6 @@ namespace _08_CRUDPersonas_DAL.Manejadoras
 				sqlCommand.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = oPersona.direccion;
 				sqlCommand.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = oPersona.telefono;
 				sqlCommand.Parameters.Add("@departamento", System.Data.SqlDbType.Int).Value = oPersona.idDepartamento;
-
-				//Añadimos el parametro al comando
-				sqlCommand.Parameters.Add(param);
 
 				//Añadimos la conexion al comando
 				sqlCommand.Connection = sqlconnection;
@@ -190,28 +183,18 @@ namespace _08_CRUDPersonas_DAL.Manejadoras
 		/// </summary>
 		/// <param name="id"></param>
 		/// <returns>clsPersona editada</returns>
-		public clsPersona EditarPersonaPorID_DAL(clsPersona persona)
+		public int EditarPersona_DAL(clsPersona persona)
 		{
 			clsMyConnection miconexion = new clsMyConnection();
 			SqlConnection sqlconnection = null;
 			SqlCommand sqlCommand = new SqlCommand();
-			//int filas;
+			int filas;
 
 			try
 			{
 				sqlconnection = miconexion.getConnection();
 
-				sqlCommand.CommandText = "UPDATE Personas " +
-					"SET nombrePersona = @nombre, apellidosPersona = @apellidos, fechaNacimiento = @fechaNac," +
-					"direccion = @direccion, telefono = @telefono, idDepartamento = @departamento " +
-					"WHERE idPersona = @id";
-
-				/*  La sentencia funciona
-					UPDATE Personas 
-					SET nombrePersona = 'aaaa', apellidosPersona = 'bbbb', fechaNacimiento = CAST('2009-05-25' AS date), 
-						direccion = 'direcc', telefono = 'tel', idDepartamento = 1  
-					WHERE idPersona = 11;
-				 */
+				sqlCommand.CommandText = "UPDATE Personas SET nombrePersona = @nombre, apellidosPersona = @apellidos, fechaNacimiento = @fechaNac, direccion = @direccion, telefono = @telefono, idDepartamento = @departamento WHERE idPersona = @id";
 
 				sqlCommand.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = persona.idPersona;
 				sqlCommand.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = persona.nombre;
@@ -222,7 +205,8 @@ namespace _08_CRUDPersonas_DAL.Manejadoras
 				sqlCommand.Parameters.Add("@departamento", System.Data.SqlDbType.Int).Value = persona.idDepartamento;
 
 				sqlCommand.Connection = sqlconnection;
-				sqlCommand.ExecuteNonQuery();
+
+				filas = sqlCommand.ExecuteNonQuery();
 			}
 			catch (SqlException e)
 			{
@@ -233,7 +217,7 @@ namespace _08_CRUDPersonas_DAL.Manejadoras
 				miconexion.closeConnection(ref sqlconnection);
 			}
 
-			return persona;
+			return filas;
 		}
 		#endregion
 	}

@@ -91,7 +91,7 @@ namespace _08_CRUDPersonas_UI.Controllers
 			{
 				filas = manejadora_BL.InsertarPersona_BL(oPersona);
 				listado = manejadora_lista.listadoCompletoPersonas_BL();
-				ViewData["InsertFilas"] = $"Filas insertadas: {filas}";
+				ViewData["InsertFilas"] = $"Se ha/n insertado {filas} fila/s: {oPersona.nombre } {oPersona.apellidos}";
 			}
 			catch(Exception)
 			{
@@ -132,15 +132,19 @@ namespace _08_CRUDPersonas_UI.Controllers
 		public ActionResult EditarPost(clsPersona oPersona)
 		{
 			clsManejadoraPersona_BL manejadora_BL = new clsManejadoraPersona_BL();
+			clsListadoPersonas_BL manejadora_lista = new clsListadoPersonas_BL();
+			List<clsPersona> listado = new List<clsPersona>();
 			int filas;
 
 			try
 			{
-				manejadora_BL.EditarPersonaPorID_BL(oPersona);
+				filas = manejadora_BL.EditarPersona_BL(oPersona);
+				listado = manejadora_lista.listadoCompletoPersonas_BL();
+				ViewData["EditFilas"] = $"Filas editadas: {filas}";
 			}
 			catch (Exception) { ViewData["ErrorEditar"] = "Error, no se ha podido editar"; }
 
-			return View(oPersona);
+			return View("ListadoCompleto", listado);
 		}
 
 		/// <summary>

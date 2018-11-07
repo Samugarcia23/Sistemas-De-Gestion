@@ -38,23 +38,20 @@ namespace Clas08_CRUDPersonas_BL.Manejadoras
 		/// Funcion que llama a InsertarPersona de la capa DAL y devuelve la nueva persona alteradas a la capa UI
 		/// </summary>
 		/// <returns></returns>
-		public int InsertarPersona_BL(clsPersona persona)
+		public int InsertarPersona_BL(clsPersona oPersona)
 		{
-			clsPersona oPersona = new clsPersona();
 			clsManejadoraPersona_DAL manejadora_DAL = new clsManejadoraPersona_DAL();
 			int filas;
 			filas = manejadora_DAL.InsertarPersona_DAL(oPersona);
 			return filas;
 		}
 
-		public clsPersona EditarPersonaPorID_BL(clsPersona persona)
+		public int EditarPersona_BL(clsPersona oPersona)
 		{
-			clsPersona oPersona = new clsPersona();
 			clsManejadoraPersona_DAL manejadora_DAL = new clsManejadoraPersona_DAL();
-			//int filas;
-
-			manejadora_DAL.EditarPersonaPorID_DAL(oPersona);
-			return oPersona;
+			int filas;
+			filas = manejadora_DAL.EditarPersona_DAL(oPersona);
+			return filas;
 		}
 	}
 }
