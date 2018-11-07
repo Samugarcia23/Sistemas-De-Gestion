@@ -35,12 +35,12 @@ namespace _08_CRUDPersonas_DAL.Conexion
         public clsMyConnection()
         {
             // this.server = "(local)";
-            this.server = "iesnervion.database.windows.net";
+            this.server = "serverpersonasdamsg.database.windows.net";
 
-            this.dataBase = "WPFSample";
-            this.user = "prueba";
+            this.dataBase = "personasDB";
+            this.user = "Prueba";
             //this.pass = "123";
-            this.pass = "iesnervion123.";
+            this.pass = "123qweasd!";
 
         }
         //Con parámetros por si quisiera cambiar las conexiones

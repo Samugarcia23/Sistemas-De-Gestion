@@ -9,27 +9,43 @@ using System.Threading.Tasks;
 
 namespace _08_CRUDPersonas_DAL.Listado
 {
-	public class clsListadoPersonas
+	public class clsListadoPersonas_DAL
 	{
+		/// <summary>
+		/// Funcion que devuelve un List de objetos personas
+		/// Devolvera un lista vacia si ha habido un error o no se ha podido establecer conexion
+		/// </summary>
+		/// <returns>Lista de personas</returns>
 		public List<clsPersona> listadoCompletoPersonas()
 		{
 			clsMyConnection miconexion = new clsMyConnection();
-			SqlConnection sqlconnection = miconexion.getConnection();
+			SqlConnection sqlconnection = null;
 			SqlCommand sqlCommand = new SqlCommand();
-			SqlDataReader lector;
+			SqlDataReader lector = null;
 			clsPersona oPersona;
 			List <clsPersona> lista = new List<clsPersona>();
-			string error = "";
-			try
+
+			
+
+			try //Try no obligatorio, lo controlamos en la clase myconnection
 			{
-				sqlCommand.CommandText = "Select * From Personas";
+				//Obtener conexion abierta	
+				sqlconnection = miconexion.getConnection();
+
+				//Definimos los parametros del comando
+				sqlCommand.CommandText = "SELECT * FROM Personas";
+				//Definir la conexion
 				sqlCommand.Connection = sqlconnection;
+
+				//Ejecutar la consulta
 				lector = sqlCommand.ExecuteReader();
+				//Comprobar si el lector tiene filas y en caso afirmativo, recorrer
 				if (lector.HasRows)
 				{
 					while (lector.Read())
 					{
 						oPersona = new clsPersona();
+						//Definir los atributos
 						oPersona.idPersona = (int)lector["idPersona"];
 						oPersona.nombre = (string)lector["nombrePersona"];
 						oPersona.apellidos = (string)lector["apellidosPersona"];
@@ -37,13 +53,19 @@ namespace _08_CRUDPersonas_DAL.Listado
 						oPersona.direccion = (string)lector["direccion"];
 						oPersona.telefono = (string)lector["telefono"];
 						oPersona.idDepartamento = (int)lector["idDepartamento"];
+						//Añadir persona a la vista
 						lista.Add(oPersona);
 					}
 				}
-				lector.Close();
+				
 			}
-			catch (SqlException) { error = "Error al intentar conectarse con la BD"; }
-			finally { miconexion.closeConnection(ref sqlconnection); }
+			catch (SqlException e) { throw e; }
+			finally
+			{
+				miconexion.closeConnection(ref sqlconnection);
+				if (lector!=null)
+					lector.Close();
+			}
 
 			return lista;
 		}

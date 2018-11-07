@@ -9,3 +9,14 @@ C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\Clas08-CRUDP
 C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\obj\Debug\Clas08-CRUDPersonas-BL.csproj.CopyComplete
 C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\obj\Debug\Clas08-CRUDPersonas-BL.dll
 C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\obj\Debug\Clas08-CRUDPersonas-BL.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\bin\Debug\Clas08-CRUDPersonas-BL.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\bin\Debug\Clas08-CRUDPersonas-BL.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\bin\Debug\08-CRUDPersonas-DAL.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\bin\Debug\08-CRUDPersonas-Entidades.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\bin\Debug\08-CRUDPersonas-DAL.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\bin\Debug\08-CRUDPersonas-Entidades.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\obj\Debug\Clas08-CRUDPersonas-BL.csprojAssemblyReference.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\obj\Debug\Clas08-CRUDPersonas-BL.csproj.CoreCompileInputs.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\obj\Debug\Clas08-CRUDPersonas-BL.csproj.CopyComplete
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\obj\Debug\Clas08-CRUDPersonas-BL.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\Clas08-CRUDPersonas-BL\obj\Debug\Clas08-CRUDPersonas-BL.pdb
