@@ -158,3 +158,5 @@ C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersona
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-UI\obj\Debug\08-CRUDPersonas-UI.pdb
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-UI\bin\08-CRUDPersonas-DAL.dll
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-UI\bin\08-CRUDPersonas-DAL.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-UI\bin\08-CRUDPersonas-DAL.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-UI\bin\08-CRUDPersonas-DAL.pdb

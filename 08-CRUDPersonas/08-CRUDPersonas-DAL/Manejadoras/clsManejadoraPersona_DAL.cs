@@ -8,15 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _08_CRUDPersonas_DAL.Manejadoras
-{	
+{
+	
 	public class clsManejadoraPersona_DAL
 	{
+		#region Funciones Manejadoras
 		/// <summary>
 		///	Funcion que devuelve una sola persona, buscandola por su id 
 		/// </summary>
 		/// <param name="id"></param>
 		/// <returns>clsPersona</returns>
-		//La funcion necesitara un id como parametro
 		public clsPersona BuscarPersonaPorID_DAL (int id)
 		{
 			clsPersona oPersona = new clsPersona();
@@ -86,6 +87,11 @@ namespace _08_CRUDPersonas_DAL.Manejadoras
 		return oPersona;
 		}
 
+		/// <summary>
+		/// Metodo para borrar una persona pasandole su id
+		/// </summary>
+		/// <param name="id"></param>
+		/// <returns>filas</returns>
 		public int BorrarPersonaPorID(int id)
 		{
 			clsPersona oPersona = new clsPersona();
@@ -128,40 +134,107 @@ namespace _08_CRUDPersonas_DAL.Manejadoras
 			return filas;
 		}
 
-		public clsPersona InsertarPersona()
+		/// <summary>
+		/// Metodo que devuelve un nuevo objeto persona, creado desde la vista
+		/// </summary>
+		/// <returns>clsPersona</returns>
+		public int InsertarPersona_DAL(clsPersona persona)
 		{
 			clsPersona oPersona = new clsPersona();
 			clsMyConnection miconexion = new clsMyConnection();
 			SqlConnection sqlconnection = null;
 			SqlCommand sqlCommand = new SqlCommand();
-			SqlDataReader lector;
+			SqlDataReader lector = null;
 			List<clsPersona> lista = new List<clsPersona>();
+			SqlParameter param = new SqlParameter();
+			int filas;
 
 			try
 			{
 				//Obtener conexion abierta	
 				sqlconnection = miconexion.getConnection();
-				sqlCommand.CommandText = "INSERT INTO Personas(nombrepersona, apellidospersona, fechanacimiento, direccion, telefono, iddepartamento) " +
+
+				//Sentencia SQL
+				sqlCommand.CommandText = "INSERT INTO Personas(nombrePersona, apellidosPersona, fechaNacimiento, direccion, telefono, idDepartamento) " +
 					"VALUES (@nombre, @apellidos, @fechaNac, @direccion, @telefono, @departamento)";
 
-				SqlParameter param = new SqlParameter();
+				//Definicion de parametros
 				sqlCommand.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = oPersona.nombre;
 				sqlCommand.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = oPersona.apellidos;
-				sqlCommand.Parameters.Add("@fechaNac", System.Data.SqlDbType.DateTime).Value = oPersona.fechNacimiento;
+				sqlCommand.Parameters.Add("@fechaNac", System.Data.SqlDbType.Date).Value = oPersona.fechNacimiento;
 				sqlCommand.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = oPersona.direccion;
 				sqlCommand.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = oPersona.telefono;
 				sqlCommand.Parameters.Add("@departamento", System.Data.SqlDbType.Int).Value = oPersona.idDepartamento;
 
+				//Añadimos el parametro al comando
 				sqlCommand.Parameters.Add(param);
 
-				lector = sqlCommand.ExecuteReader();
+				//Añadimos la conexion al comando
+				sqlCommand.Connection = sqlconnection;
+
+				//Ejecutamos el comando
+				filas = sqlCommand.ExecuteNonQuery();	
+				
 			}
-			catch (Exception)
+			catch (SqlException e){ throw e; }
+			finally
+			{
+				//Cerramos la conexion
+				miconexion.closeConnection(ref sqlconnection);
+			}
+			return filas;
+		}
+
+		/// <summary>
+		/// Editamos una persona pasando su id
+		/// </summary>
+		/// <param name="id"></param>
+		/// <returns>clsPersona editada</returns>
+		public clsPersona EditarPersonaPorID_DAL(clsPersona persona)
+		{
+			clsMyConnection miconexion = new clsMyConnection();
+			SqlConnection sqlconnection = null;
+			SqlCommand sqlCommand = new SqlCommand();
+			//int filas;
+
+			try
+			{
+				sqlconnection = miconexion.getConnection();
+
+				sqlCommand.CommandText = "UPDATE Personas " +
+					"SET nombrePersona = @nombre, apellidosPersona = @apellidos, fechaNacimiento = @fechaNac," +
+					"direccion = @direccion, telefono = @telefono, idDepartamento = @departamento " +
+					"WHERE idPersona = @id";
+
+				/*  La sentencia funciona
+					UPDATE Personas 
+					SET nombrePersona = 'aaaa', apellidosPersona = 'bbbb', fechaNacimiento = CAST('2009-05-25' AS date), 
+						direccion = 'direcc', telefono = 'tel', idDepartamento = 1  
+					WHERE idPersona = 11;
+				 */
+
+				sqlCommand.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = persona.idPersona;
+				sqlCommand.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = persona.nombre;
+				sqlCommand.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = persona.apellidos;
+				sqlCommand.Parameters.Add("@fechaNac", System.Data.SqlDbType.Date).Value = persona.fechNacimiento;
+				sqlCommand.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = persona.direccion;
+				sqlCommand.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = persona.telefono;
+				sqlCommand.Parameters.Add("@departamento", System.Data.SqlDbType.Int).Value = persona.idDepartamento;
+
+				sqlCommand.Connection = sqlconnection;
+				sqlCommand.ExecuteNonQuery();
+			}
+			catch (SqlException e)
 			{
 				throw e;
 			}
+			finally
+			{
+				miconexion.closeConnection(ref sqlconnection);
+			}
 
-			return oPersona;
+			return persona;
 		}
+		#endregion
 	}
 }
