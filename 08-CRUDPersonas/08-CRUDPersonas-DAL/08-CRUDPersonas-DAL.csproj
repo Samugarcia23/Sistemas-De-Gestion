@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Conexion\clsMyConnection.cs" />
     <Compile Include="Listado\clsListadoPersonas_DAL.cs" />
     <Compile Include="Manejadoras\clsManejadoraPersona_DAL.cs" />
