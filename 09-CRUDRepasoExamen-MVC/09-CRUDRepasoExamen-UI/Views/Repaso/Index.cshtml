@@ -1,0 +1,66 @@
+﻿@model _09_CRUDRepasoExamen_UI.ViewModels.clsListadoPersonasDepartamento
+
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+</head>
+<body>
+	@using (Html.BeginForm())
+	{
+		@Html.DropDownListFor(x => Model.idDepartamentoSeleccionado, new SelectList(Model.listaDepartamento, "ID", "Nombre"))
+
+		if (Model.listaPersonasPorDepartamento.Count != 0)
+		{
+			<table class="table" border="1">
+				<tr>
+
+					<th>
+						Nombre
+					</th>
+
+					<th>
+						Apellidos
+					</th>
+
+					<th>
+						Telefono
+					</th>
+
+				</tr>
+
+			@foreach (var item in Model.listaPersonasPorDepartamento)
+			{
+				<tr>
+
+					<td>
+						@Html.DisplayFor(modelItem => item.nombre)
+					</td>
+
+					<td>
+						@Html.DisplayFor(modelItem => item.apellidos)
+					</td>
+
+					<td>
+						@Html.DisplayFor(modelItem => item.telefono)
+					</td>
+
+					<td>
+						@Html.ActionLink("Cambiar", "Nombre de la otra vista", new { id = item.idPersona }) |
+					</td>
+
+				</tr>
+			}
+
+			</table>
+		}
+	}
+
+</body>
+</html>

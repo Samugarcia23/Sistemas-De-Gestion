@@ -32,8 +32,6 @@ namespace _08_CRUDPersonas_UI.Controllers
 			return View(listado);
 		}
 
-		/*Borrar || Actualizar || Detalles || Editar --> todos tendran el actioresult normal y el HTTPOST menos detalles*/
-
 		public ActionResult Delete(int id) //Parametro de ruta (ver el RouteConfig)
 		{
 			clsPersona oPersona = new clsPersona();
@@ -165,6 +163,14 @@ namespace _08_CRUDPersonas_UI.Controllers
 				ViewData["ErrorDetail"] = "Error, no se ha podido cargar";
 			}
 			return View(oPersona);
+		}
+
+		public ActionResult ListadoCompletoPersonaNombreDep()
+		{
+			List<clsPersonaConNombreDeDepartamento> listaCompleta = new List<clsPersonaConNombreDeDepartamento>();
+			clsListadoPersonasConNombreDep_BL listado_BL = new clsListadoPersonasConNombreDep_BL();
+			listaCompleta = listado_BL.listadoCompletoPersonasConNombreDep();
+			return View(listaCompleta);
 		}
 	}
 }

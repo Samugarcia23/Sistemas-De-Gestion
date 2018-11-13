@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Listado\clsListadoPersonasConNombreDep_BL.cs" />
     <Compile Include="Listado\clsListadoPersonas_BL.cs" />
     <Compile Include="Manejadoras\clsManejadoraPersona_BL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

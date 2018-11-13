@@ -43,7 +43,12 @@
   <ItemGroup>
     <Compile Include="clsDepartamento.cs" />
     <Compile Include="clsPersona.cs" />
+    <Compile Include="clsPersonaConNombreDeDepartamento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Complejas\" />
+    <Folder Include="Persistencia\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
