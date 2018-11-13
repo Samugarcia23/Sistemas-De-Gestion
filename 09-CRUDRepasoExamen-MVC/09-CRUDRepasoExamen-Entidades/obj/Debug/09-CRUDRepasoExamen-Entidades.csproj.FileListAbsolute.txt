@@ -1,0 +1,6 @@
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-Entidades\bin\Debug\09-CRUDRepasoExamen-Entidades.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-Entidades\bin\Debug\09-CRUDRepasoExamen-Entidades.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-Entidades\obj\Debug\09-CRUDRepasoExamen-Entidades.csproj.CoreCompileInputs.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-Entidades\obj\Debug\09-CRUDRepasoExamen-Entidades.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-Entidades\obj\Debug\09-CRUDRepasoExamen-Entidades.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-Entidades\obj\Debug\09-CRUDRepasoExamen-Entidades.csprojAssemblyReference.cache

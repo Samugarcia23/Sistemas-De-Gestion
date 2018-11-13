@@ -1,4 +1,5 @@
-﻿using _09_CRUDRepasoExamen_Entidades;
+﻿using _09_CRUDRepasoExamen_BL.Listados;
+using _09_CRUDRepasoExamen_Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace _09_CRUDRepasoExamen_UI.ViewModels
 
 		public clsListadoPersonasDepartamento()
 		{
-
+			
 		}
 
 		public clsListadoPersonasDepartamento (List<clsPersona> listPersonasDep, List<clsDepartamento> listDep)

@@ -1,0 +1,11 @@
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-BL\obj\Debug\09-CRUDRepasoExamen-BL.csprojAssemblyReference.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-BL\obj\Debug\09-CRUDRepasoExamen-BL.csproj.CoreCompileInputs.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-BL\bin\Debug\09-CRUDRepasoExamen-BL.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-BL\bin\Debug\09-CRUDRepasoExamen-BL.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-BL\bin\Debug\09-CRUDRepasoExamen-DAL.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-BL\bin\Debug\09-CRUDRepasoExamen-Entidades.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-BL\bin\Debug\09-CRUDRepasoExamen-DAL.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-BL\bin\Debug\09-CRUDRepasoExamen-Entidades.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-BL\obj\Debug\09-CRUDRepasoExamen-BL.csproj.CopyComplete
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-BL\obj\Debug\09-CRUDRepasoExamen-BL.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-BL\obj\Debug\09-CRUDRepasoExamen-BL.pdb

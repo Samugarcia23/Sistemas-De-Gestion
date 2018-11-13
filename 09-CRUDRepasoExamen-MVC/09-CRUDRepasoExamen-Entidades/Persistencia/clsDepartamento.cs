@@ -10,14 +10,15 @@ namespace _09_CRUDRepasoExamen_Entidades
 		#region Constructor por Defecto
 		public clsDepartamento()
 		{
-
+			this.nombreDepartamento = "";
+			this.idDepartamento = 0;
 		}
 		#endregion
 		#region Constructor por parametros
-		public clsDepartamento(int idDepartamento, String nombreDepartamento)
+		public clsDepartamento(int id, String nombre)
 		{
-			this.idDepartamento = idDepartamento;
-			this.nombreDepartamento = nombreDepartamento;
+			this.idDepartamento = id;
+			this.nombreDepartamento = nombre;
 		}
 		#endregion
 		#region atributos_Departamento

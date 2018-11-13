@@ -44,11 +44,10 @@
     <Compile Include="Conexiones\clsMyConnection.cs" />
     <Compile Include="Listados\clsListadoDepartamentos_DAL.cs" />
     <Compile Include="Listados\clsListadoPersonasDepartamentos_DAL.cs" />
+    <Compile Include="Manejadoras\clsManejadora_DAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Manejadoras\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\09-CRUDRepasoExamen-Entidades\09-CRUDRepasoExamen-Entidades.csproj">
       <Project>{fdb717fb-cac1-47d1-b54c-4d1e4342e576}</Project>

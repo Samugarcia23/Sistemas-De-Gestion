@@ -67,5 +67,54 @@ namespace _09_CRUDRepasoExamen_DAL.Listados
 
 			return lista;
 		}
+
+		public List<clsPersona> listadoPersonasPorDepartamento(int idDepartamento)
+		{
+			List<clsPersona> listado = new List<clsPersona>();
+			clsMyConnection miconexion = new clsMyConnection();
+			SqlConnection sqlconnection = null;
+			SqlCommand comando = new SqlCommand();
+			SqlDataReader lector = null;
+			clsPersona oPersona;
+
+			try
+			{
+				sqlconnection = miconexion.getConnection();
+				comando.CommandText = "SELECT * FROM Personas WHERE IDDepartamento = @idDep";
+				SqlParameter param;
+				param = new SqlParameter();
+				param.ParameterName = "@idDep";
+				param.SqlDbType = System.Data.SqlDbType.Int;
+				param.Value = idDepartamento;
+				comando.Parameters.Add(param);
+				comando.Connection = sqlconnection;
+				lector = comando.ExecuteReader();
+
+				if (lector.HasRows)
+				{
+					while (lector.Read())
+					{
+						oPersona = new clsPersona();
+						oPersona.idPersona = (int)lector["idPersona"];
+						oPersona.nombre = (string)lector["nombrePersona"];
+						oPersona.apellidos = (string)lector["apellidosPersona"];
+						oPersona.fechNacimiento = (DateTime)lector["fechaNacimiento"];
+						oPersona.direccion = (string)lector["direccion"];
+						oPersona.telefono = (string)lector["telefono"];
+						oPersona.idDepartamento = (int)lector["idDepartamento"];
+						
+						listado.Add(oPersona);
+					}
+				}
+			}
+			catch (SqlException e) { throw e; }
+			finally
+			{
+				miconexion.closeConnection(ref sqlconnection);
+				lector.Close();
+			}
+
+			return listado;
+		}
 	}
 }

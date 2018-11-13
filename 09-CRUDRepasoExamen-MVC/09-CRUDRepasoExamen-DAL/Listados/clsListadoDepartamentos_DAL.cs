@@ -24,18 +24,16 @@ namespace _09_CRUDRepasoExamen_DAL.Listados
 			{
 				sqlConnection = miConexion.getConnection();
 				comando.CommandText = "SELECT * FROM Departamentos";
-				lector = comando.ExecuteReader();
 				comando.Connection = sqlConnection;
+				lector = comando.ExecuteReader();
 
 				if (lector.HasRows)
 				{
 					while (lector.Read())
 					{
-						oDepartamento = new clsDepartamento();
-						//Definir los atributos
+						oDepartamento = new clsDepartamento();	
 						oDepartamento.idDepartamento = (int)lector["idDepartamento"];
 						oDepartamento.nombreDepartamento = (string)lector["nombreDepartamento"];
-						//Añadir persona a la vista
 						listado.Add(oDepartamento);
 					}
 				}

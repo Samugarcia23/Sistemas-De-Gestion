@@ -1,4 +1,4 @@
-﻿@model _09_CRUDRepasoExamen_UI.ViewModels.clsListadoPersonasDepartamento
+﻿@model  _09_CRUDRepasoExamen_UI.ViewModels.clsListadoPersonasDepartamento
 
 @{
 	Layout = null;
@@ -14,26 +14,32 @@
 <body>
 	@using (Html.BeginForm())
 	{
-		@Html.DropDownListFor(x => Model.idDepartamentoSeleccionado, new SelectList(Model.listaDepartamento, "ID", "Nombre"))
+		@Html.DropDownListFor(x => Model.idDepartamentoSeleccionado, new SelectList(Model.listaDepartamento, "idDepartamento", "nombreDepartamento"))
 
-		if (Model.listaPersonasPorDepartamento.Count != 0)
-		{
-			<table class="table" border="1">
-				<tr>
+		<br><br>
+		<input type="submit" value="Buscar" />
 
-					<th>
-						Nombre
-					</th>
+	}
 
-					<th>
-						Apellidos
-					</th>
+	<br><br>
+	@if (Model.listaPersonasPorDepartamento.Count != 0)
+	{
+		<table class="table" border="1">
+			<tr>
 
-					<th>
-						Telefono
-					</th>
+				<th>
+					Nombre
+				</th>
 
-				</tr>
+				<th>
+					Apellidos
+				</th>
+
+				<th>
+					Telefono
+				</th>
+
+			</tr>
 
 			@foreach (var item in Model.listaPersonasPorDepartamento)
 			{
@@ -52,14 +58,13 @@
 					</td>
 
 					<td>
-						@Html.ActionLink("Cambiar", "Nombre de la otra vista", new { id = item.idPersona }) |
+						@Html.ActionLink("Cambiar Telefono", "Edit", new { id = item.idPersona }) |
 					</td>
 
 				</tr>
 			}
 
-			</table>
-		}
+		</table>
 	}
 
 </body>
