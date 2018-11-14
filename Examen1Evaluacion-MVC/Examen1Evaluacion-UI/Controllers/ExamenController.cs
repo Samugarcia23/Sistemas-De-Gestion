@@ -18,52 +18,39 @@ namespace Examen1Evaluacion_UI.Controllers
 		/// </summary>
 		/// <param name="id"></param>
 		/// <returns>miViewmodel</returns>
-        public ActionResult Index(int id = 0)
+        public ActionResult Index()
         {
 			clsListadosPersonajes miViewmodel = new clsListadosPersonajes();
-			clsPersonaje oPersonaje = new clsPersonaje();
-			List<clsPersonaje> listadoNombres = new List<clsPersonaje>();
 			clsListadoPersonajes_BL listadoPersonajes_BL = new clsListadoPersonajes_BL();
-			clsManejadora_BL manejadora_BL = new clsManejadora_BL();
-			
-			try
-			{
-				if (id == 0)
-				{
-					listadoNombres = listadoPersonajes_BL.listadoNombresPersonajes();
-					miViewmodel.listadoNombrePersonajes = listadoNombres;
-					miViewmodel.AtributosPersonajesPorId = oPersonaje;
-				}
-				else
-				{
-					listadoNombres = listadoPersonajes_BL.listadoNombresPersonajes();
-					oPersonaje = manejadora_BL.AtributosPersonajePorId(miViewmodel.idPersonajeSeleccionado);
-					miViewmodel.listadoNombrePersonajes = listadoNombres;
-					miViewmodel.idPersonajeSeleccionado = id;
-					miViewmodel.AtributosPersonajesPorId = oPersonaje;
-				}
-			}
-			catch (Exception)
-			{
-				ViewData["ErrorIndex"] = "Error";
-			}
+			miViewmodel.listadoNombrePersonajes = listadoPersonajes_BL.listadoNombresPersonajes();
+
             return View(miViewmodel);
         }
 
 		[HttpPost]
-		public ActionResult Index(clsListadosPersonajes miViewmodel)
+		public ActionResult Index(clsListadosPersonajes miViewmodel, string botonPulsado)
 		{
 			clsPersonaje oPersonaje = new clsPersonaje();
 			clsManejadora_BL manejadora_BL = new clsManejadora_BL();
-			try
+			if (botonPulsado.Equals("Editar"))
 			{
-				oPersonaje = manejadora_BL.AtributosPersonajePorId(miViewmodel.idPersonajeSeleccionado);
-				miViewmodel.AtributosPersonajesPorId = oPersonaje;
+				try
+				{
+					oPersonaje = manejadora_BL.AtributosPersonajePorId(miViewmodel.idPersonajeSeleccionado);
+					miViewmodel.AtributosPersonajesPorId = oPersonaje;
+				}
+				catch (Exception)
+				{
+					ViewData["ErrorIndex"] = "Error";
+				}
 			}
-			catch (Exception)
-			{
-				ViewData["ErrorIndex"] = "Error";
-			}
+			else
+				if (botonPulsado.Equals("Guardar"))
+				{
+
+				}
+			
+			
 			return View(miViewmodel);
 		}
     }
