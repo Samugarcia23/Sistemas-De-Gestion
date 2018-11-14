@@ -1,0 +1,11 @@
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-BL\bin\Debug\Examen1Evaluacion-BL.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-BL\bin\Debug\Examen1Evaluacion-BL.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-BL\bin\Debug\Examen1Evaluacion-DAL.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-BL\bin\Debug\Examen1Evaluacion-Entidades.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-BL\bin\Debug\Examen1Evaluacion-DAL.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-BL\bin\Debug\Examen1Evaluacion-Entidades.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-BL\obj\Debug\Examen1Evaluacion-BL.csprojAssemblyReference.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-BL\obj\Debug\Examen1Evaluacion-BL.csproj.CoreCompileInputs.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-BL\obj\Debug\Examen1Evaluacion-BL.csproj.CopyComplete
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-BL\obj\Debug\Examen1Evaluacion-BL.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-BL\obj\Debug\Examen1Evaluacion-BL.pdb

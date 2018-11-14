@@ -1,0 +1,153 @@
+﻿@model Examen1Evaluacion_UI.ViewModels.clsListadosPersonajes
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <h3>Pagina de Inicio</h3>
+</head>
+<body>
+	@using (Html.BeginForm())
+	{
+		@Html.DropDownListFor(x => Model.idPersonajeSeleccionado, new SelectList(Model.listadoNombrePersonajes, "idPersonaje", "Nombre"));
+
+		<br><br>
+		<input type="submit" value="Editar" />
+	}
+
+	<br><br>
+	@if (Model.idPersonajeSeleccionado != 0)
+	{
+		using (Html.BeginForm())
+		{
+			@Html.AntiForgeryToken()
+
+		<div class="form-horizontal">
+			<h4>Cambiar Telefono</h4>
+			<hr />
+			@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+			<div hidden class="form-group">
+				ID Personaje:
+				<br />
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.idPersonaje, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.idPersonaje, "", new { @class = "text-danger" })
+				</div>
+			</div>
+			<br />
+
+			<div hidden class="form-group">
+				Nombre:
+				<br />
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.nombre, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.nombre, "", new { @class = "text-danger" })
+				</div>
+			</div>
+			<br />
+
+			<div class="form-group">
+				Alias:
+				<br />
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.alias, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.alias, "", new { @class = "text-danger" })
+				</div>
+			</div>
+			<br />
+
+			<div class="form-group">
+				Vida:
+				<br />
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.vida, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.vida, "", new { @class = "text-danger" })
+				</div>
+			</div>
+			<br />
+
+			<div class="form-group">
+				Regeneracion:
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.regeneracion, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.regeneracion, "", new { @class = "text-danger" })
+				</div>
+			</div>
+			<br />
+
+			<div class="form-group">
+				Daño:
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.danno, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.danno, "", new { @class = "text-danger" })
+				</div>
+			</div>
+			<br />
+
+			<div class="form-group">
+				Armadura:
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.armadura, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.armadura, "", new { @class = "text-danger" })
+				</div>
+			</div>
+			<br />
+
+			<div class="form-group">
+				Velocidad de Ataque:
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.velAtaque, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.velAtaque, "", new { @class = "text-danger" })
+				</div>
+			</div>
+			<br />
+
+			<div class="form-group">
+				Resistencia:
+				<br />
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.resistencia, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.resistencia, "", new { @class = "text-danger" })
+				</div>
+			</div>
+			<br />
+
+			<div class="form-group">
+				Velocidad de Movimiento:
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.velMovimiento, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.velMovimiento, "", new { @class = "text-danger" })
+				</div>
+			</div>
+			<br />
+
+			<div class="form-group">
+				ID Categoria:
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.idCategoria, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.idCategoria, "", new { @class = "text-danger" })
+				</div>
+			</div>
+			<br />
+
+			<div class="form-group">
+				<div class="col-md-offset-2 col-md-10">
+					<input type="submit" value="Guardar" class="btn btn-default" />
+				</div>
+			</div>
+			<br />
+
+			<div>
+				@ViewData["ErrorIndex"]
+			</div>
+			<br />
+		</div>
+		}
+	}
+</body>
+</html>

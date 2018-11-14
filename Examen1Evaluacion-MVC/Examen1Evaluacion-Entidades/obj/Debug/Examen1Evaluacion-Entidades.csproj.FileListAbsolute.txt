@@ -1,0 +1,6 @@
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\bin\Debug\Examen1Evaluacion-Entidades.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\bin\Debug\Examen1Evaluacion-Entidades.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\obj\Debug\Examen1Evaluacion-Entidades.csprojAssemblyReference.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\obj\Debug\Examen1Evaluacion-Entidades.csproj.CoreCompileInputs.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\obj\Debug\Examen1Evaluacion-Entidades.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\obj\Debug\Examen1Evaluacion-Entidades.pdb

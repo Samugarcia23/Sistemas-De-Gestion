@@ -7,3 +7,12 @@ C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-C
 C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-DAL\obj\Debug\09-CRUDRepasoExamen-DAL.csproj.CopyComplete
 C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-DAL\obj\Debug\09-CRUDRepasoExamen-DAL.dll
 C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-DAL\obj\Debug\09-CRUDRepasoExamen-DAL.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-DAL\bin\Debug\09-CRUDRepasoExamen-DAL.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-DAL\bin\Debug\09-CRUDRepasoExamen-DAL.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-DAL\bin\Debug\09-CRUDRepasoExamen-Entidades.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-DAL\bin\Debug\09-CRUDRepasoExamen-Entidades.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-DAL\obj\Debug\09-CRUDRepasoExamen-DAL.csprojAssemblyReference.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-DAL\obj\Debug\09-CRUDRepasoExamen-DAL.csproj.CoreCompileInputs.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-DAL\obj\Debug\09-CRUDRepasoExamen-DAL.csproj.CopyComplete
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-DAL\obj\Debug\09-CRUDRepasoExamen-DAL.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\09-CRUDRepasoExamen-MVC\09-CRUDRepasoExamen-DAL\obj\Debug\09-CRUDRepasoExamen-DAL.pdb

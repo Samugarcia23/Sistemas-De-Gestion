@@ -34,6 +34,7 @@
 			<br />
 			<div class="col-md-10">
 				@Html.DisplayFor(model => model.nombre)
+				@Html.HiddenFor(model => model.nombre)
 			</div>
 		</div>
 		<br />
@@ -43,6 +44,7 @@
 			<br />
 			<div class="col-md-10">
 				@Html.DisplayFor(model => model.apellidos)
+				@Html.HiddenFor(model => model.apellidos)
 			</div>
 		</div>
 		<br />
@@ -51,6 +53,7 @@
 			Departamento:
 			<div class="col-md-10">
 				@Html.DisplayFor(model => model.nombreDepartamento)
+				@Html.HiddenFor(model => model.nombreDepartamento)
 			</div>
 		</div>
 		<br />
