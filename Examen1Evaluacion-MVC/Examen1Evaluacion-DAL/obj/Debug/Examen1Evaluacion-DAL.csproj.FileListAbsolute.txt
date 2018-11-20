@@ -7,3 +7,12 @@ C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1E
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-DAL\obj\Debug\Examen1Evaluacion-DAL.csproj.CopyComplete
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-DAL\obj\Debug\Examen1Evaluacion-DAL.dll
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-DAL\obj\Debug\Examen1Evaluacion-DAL.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-DAL\bin\Debug\Examen1Evaluacion-DAL.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-DAL\bin\Debug\Examen1Evaluacion-DAL.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-DAL\bin\Debug\Examen1Evaluacion-Entidades.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-DAL\bin\Debug\Examen1Evaluacion-Entidades.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-DAL\obj\Debug\Examen1Evaluacion-DAL.csprojAssemblyReference.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-DAL\obj\Debug\Examen1Evaluacion-DAL.csproj.CoreCompileInputs.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-DAL\obj\Debug\Examen1Evaluacion-DAL.csproj.CopyComplete
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-DAL\obj\Debug\Examen1Evaluacion-DAL.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-DAL\obj\Debug\Examen1Evaluacion-DAL.pdb

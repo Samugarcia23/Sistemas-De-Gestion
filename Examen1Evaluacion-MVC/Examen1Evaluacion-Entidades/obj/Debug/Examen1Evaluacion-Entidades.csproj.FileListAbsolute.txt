@@ -4,3 +4,9 @@ C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1E
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\obj\Debug\Examen1Evaluacion-Entidades.csproj.CoreCompileInputs.cache
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\obj\Debug\Examen1Evaluacion-Entidades.dll
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\obj\Debug\Examen1Evaluacion-Entidades.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\bin\Debug\Examen1Evaluacion-Entidades.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\bin\Debug\Examen1Evaluacion-Entidades.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\obj\Debug\Examen1Evaluacion-Entidades.csprojAssemblyReference.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\obj\Debug\Examen1Evaluacion-Entidades.csproj.CoreCompileInputs.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\obj\Debug\Examen1Evaluacion-Entidades.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\Examen1Evaluacion-MVC\Examen1Evaluacion-Entidades\obj\Debug\Examen1Evaluacion-Entidades.pdb
