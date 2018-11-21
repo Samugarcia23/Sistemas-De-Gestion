@@ -22,7 +22,7 @@ namespace _08_CRUDPersonas_DAL.Listado
 			clsMyConnection miConexion = new clsMyConnection();
 
 			sqlConnection = miConexion.getConnection();
-			comando.CommandText = "SELECT IDPersona,nombrePersona,fechaNacimiento,telefono,direccion, Departamentos.idDepartamento, nombreDepartamento FROM Personas INNER JOIN Departamentos ON Personas.IDDepartamento = Departamentos.IDDepartamento";
+			comando.CommandText = "SELECT IDPersona,nombrePersona, apellidosPersona,fechaNacimiento,telefono,direccion, Departamentos.idDepartamento, nombreDepartamento FROM Personas INNER JOIN Departamentos ON Personas.IDDepartamento = Departamentos.IDDepartamento";
 			comando.Connection = sqlConnection;
 			lector = comando.ExecuteReader();
 
@@ -34,6 +34,7 @@ namespace _08_CRUDPersonas_DAL.Listado
 					oPersona = new clsPersonaConNombreDeDepartamento();
 					oPersona.idPersona = (int)lector["IDPersona"];
 					oPersona.nombre = (String)lector["nombrePersona"];
+					oPersona.apellidos = (string)lector["apellidosPersona"];
 					oPersona.fechNacimiento = (DateTime)lector["fechaNacimiento"];
 					oPersona.telefono = (String)lector["telefono"];
 					oPersona.direccion = (string)lector["direccion"];
