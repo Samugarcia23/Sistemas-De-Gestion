@@ -1,0 +1,11 @@
+C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-BL\bin\Debug\10-ApiRestPersonas-BL.dll
+C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-BL\bin\Debug\10-ApiRestPersonas-BL.pdb
+C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-BL\bin\Debug\10-ApiRestPersonas-DAL.dll
+C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-BL\bin\Debug\10-ApiRestPersonas-Entidades.dll
+C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-BL\bin\Debug\10-ApiRestPersonas-DAL.pdb
+C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-BL\bin\Debug\10-ApiRestPersonas-Entidades.pdb
+C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Debug\10-ApiRestPersonas-BL.csprojAssemblyReference.cache
+C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Debug\10-ApiRestPersonas-BL.csproj.CoreCompileInputs.cache
+C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Debug\10-ApiRestPersonas-BL.csproj.CopyComplete
+C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Debug\10-ApiRestPersonas-BL.dll
+C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Debug\10-ApiRestPersonas-BL.pdb
