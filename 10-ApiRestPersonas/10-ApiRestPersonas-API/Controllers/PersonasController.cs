@@ -31,5 +31,23 @@ namespace _10_ApiRestPersonas_API.Controllers
 			oPersona = manejadoraPersona_BL.BuscarPersonaPorID_BL(id);
 			return oPersona;
 		}
-    }
+
+		public bool Post([FromBody]clsPersona persona)
+		{
+			clsManejadoraPersona_BL manejadoraPersona_BL = new clsManejadoraPersona_BL();
+			return manejadoraPersona_BL.InsertarPersona_BL(persona) == 1 ? true : false;
+		}
+
+		public bool Delete(int id)
+		{
+			clsManejadoraPersona_BL manejadoraPersona_BL = new clsManejadoraPersona_BL();
+			return manejadoraPersona_BL.BorrarPersonaPorID_BL(id) == 1 ? true : false;
+		}
+
+		public bool Put([FromBody]clsPersona persona)
+		{
+			clsManejadoraPersona_BL manejadoraPersona_BL = new clsManejadoraPersona_BL();
+			return manejadoraPersona_BL.EditarPersona_BL(persona) == 1 ? true : false;
+		}
+	}
 }
