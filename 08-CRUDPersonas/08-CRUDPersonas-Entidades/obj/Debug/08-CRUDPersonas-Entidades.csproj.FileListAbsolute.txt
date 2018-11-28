@@ -10,3 +10,17 @@ C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersona
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\obj\Debug\08-CRUDPersonas-Entidades.dll
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\obj\Debug\08-CRUDPersonas-Entidades.pdb
 C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\obj\Debug\08-CRUDPersonas-Entidades.csprojAssemblyReference.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\System.Web.Helpers.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\System.Web.Mvc.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\System.Web.Razor.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\System.Web.WebPages.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\System.Web.Helpers.xml
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\System.Web.Mvc.xml
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\System.Web.Razor.xml
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\System.Web.WebPages.xml
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-Entidades\obj\Debug\08-CRUDPersonas-Entidades.csproj.CopyComplete

@@ -80,22 +80,29 @@ namespace _08_CRUDPersonas_UI.Controllers
 		[HttpPost]
 		public ActionResult Create(clsPersona oPersona)
 		{
-			clsManejadoraPersona_BL manejadora_BL = new clsManejadoraPersona_BL();
-			clsListadoPersonas_BL manejadora_lista = new clsListadoPersonas_BL();
-			List<clsPersona> listado = new List<clsPersona>();
-			int filas;
+			if (ModelState.IsValid)
+			{ 
+				clsManejadoraPersona_BL manejadora_BL = new clsManejadoraPersona_BL();
+				clsListadoPersonas_BL manejadora_lista = new clsListadoPersonas_BL();
+				List<clsPersona> listado = new List<clsPersona>();
+				int filas;
 
-			try
-			{
-				filas = manejadora_BL.InsertarPersona_BL(oPersona);
-				listado = manejadora_lista.listadoCompletoPersonas_BL();
-				ViewData["InsertFilas"] = $"Se ha/n insertado {filas} fila/s: {oPersona.nombre } {oPersona.apellidos}";
+				try
+				{
+					filas = manejadora_BL.InsertarPersona_BL(oPersona);
+					listado = manejadora_lista.listadoCompletoPersonas_BL();
+					ViewData["InsertFilas"] = $"Se ha/n insertado {filas} fila/s: {oPersona.nombre } {oPersona.apellidos}";
+				}
+				catch(Exception)
+				{
+					ViewData["InsertError"] = "Error, no se ha podido insertar";
+				}
+				return View("ListadoCompleto", listado);
 			}
-			catch(Exception)
+			else
 			{
-				ViewData["InsertError"] = "Error, no se ha podido insertar";
+				return View(oPersona);
 			}
-			return View("ListadoCompleto", listado);
 		}
 
 		/// <summary>
@@ -105,19 +112,26 @@ namespace _08_CRUDPersonas_UI.Controllers
 		/// <returns></returns>
 		public ActionResult Edit(int id)
 		{
-			clsPersona oPersona = new clsPersona();
-			clsManejadoraPersona_BL manejadora_BL = new clsManejadoraPersona_BL();
-			//El try catch es necesario tanto aqui como en la capa DAL, en la capa BL no seria necesario
-			try
+			if (ModelState.IsValid)
 			{
-				oPersona = manejadora_BL.BuscarPersonaPorID_BL(id);
+				clsPersona oPersona = new clsPersona();
+				clsManejadoraPersona_BL manejadora_BL = new clsManejadoraPersona_BL();
+				//El try catch es necesario tanto aqui como en la capa DAL, en la capa BL no seria necesario
+				try
+				{
+					oPersona = manejadora_BL.BuscarPersonaPorID_BL(id);
+				}
+				catch (Exception e)
+				{
+					ViewData["Error"] = "Error no controlado";
+				}
+
+				return View(oPersona);
 			}
-			catch (Exception e)
+			else
 			{
-				ViewData["Error"] = "Error no controlado"; 
+				return View(id);
 			}
-			
-			return View(oPersona);
 		}
 
 		/// <summary>

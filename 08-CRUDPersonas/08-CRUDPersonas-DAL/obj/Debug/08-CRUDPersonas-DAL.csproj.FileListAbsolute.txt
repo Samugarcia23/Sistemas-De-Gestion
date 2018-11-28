@@ -16,3 +16,14 @@ C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersona
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\obj\Debug\08-CRUDPersonas-DAL.csproj.CopyComplete
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\obj\Debug\08-CRUDPersonas-DAL.dll
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\obj\Debug\08-CRUDPersonas-DAL.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\System.Web.Mvc.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\System.Web.WebPages.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\System.Web.Razor.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\System.Web.Mvc.xml
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\System.Web.WebPages.xml
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\System.Web.Razor.xml
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\08-CRUDPersonas\08-CRUDPersonas-DAL\bin\Debug\System.Web.WebPages.Deployment.xml
