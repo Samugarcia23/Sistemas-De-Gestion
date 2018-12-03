@@ -7,3 +7,12 @@ C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-DAL\obj\Debu
 C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-DAL\obj\Debug\10-ApiRestPersonas-DAL.csproj.CopyComplete
 C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-DAL\obj\Debug\10-ApiRestPersonas-DAL.dll
 C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-DAL\obj\Debug\10-ApiRestPersonas-DAL.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-DAL\bin\Debug\10-ApiRestPersonas-DAL.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-DAL\bin\Debug\10-ApiRestPersonas-DAL.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-DAL\bin\Debug\10-ApiRestPersonas-Entidades.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-DAL\bin\Debug\10-ApiRestPersonas-Entidades.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-DAL\obj\Debug\10-ApiRestPersonas-DAL.csprojAssemblyReference.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-DAL\obj\Debug\10-ApiRestPersonas-DAL.csproj.CoreCompileInputs.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-DAL\obj\Debug\10-ApiRestPersonas-DAL.csproj.CopyComplete
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-DAL\obj\Debug\10-ApiRestPersonas-DAL.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-DAL\obj\Debug\10-ApiRestPersonas-DAL.pdb

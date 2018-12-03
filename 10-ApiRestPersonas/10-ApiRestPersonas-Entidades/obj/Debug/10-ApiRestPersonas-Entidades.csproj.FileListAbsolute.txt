@@ -4,3 +4,9 @@ C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\ob
 C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Debug\10-ApiRestPersonas-Entidades.csproj.CoreCompileInputs.cache
 C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Debug\10-ApiRestPersonas-Entidades.dll
 C:\Users\sgarcia\source\repos\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Debug\10-ApiRestPersonas-Entidades.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\bin\Debug\10-ApiRestPersonas-Entidades.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\bin\Debug\10-ApiRestPersonas-Entidades.pdb
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Debug\10-ApiRestPersonas-Entidades.csprojAssemblyReference.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Debug\10-ApiRestPersonas-Entidades.csproj.CoreCompileInputs.cache
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Debug\10-ApiRestPersonas-Entidades.dll
+C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Debug\10-ApiRestPersonas-Entidades.pdb
