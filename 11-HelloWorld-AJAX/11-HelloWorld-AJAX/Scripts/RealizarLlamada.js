@@ -8,7 +8,6 @@ function inicializaEventos() {
 
 
 function btnLlamar_OnClick() {
-    //alert('Holiii');
     
     //Paso 1
     var llamada = new XMLHttpRequest();
@@ -20,10 +19,22 @@ function btnLlamar_OnClick() {
         if (llamada.readyState < 4) {
             document.getElementById("textoMostrar").innerHTML = "Cargando. . .";
         } else if (llamada.readyState == 4 && llamada.status == 200) {
-            document.getElementById("textoMostrar").innerHTML = llamada.responseText;
-        }
+            //document.getElementById("textoMostrar").innerHTML = llamada.responseText;
+            var oPersona = new Persona();
+            var arrayPersonas = JSON.parse(llamada.responseText);
+            oPersona = arrayPersonas[0];
+            document.getElementById("textoMostrar").innerHTML = oPersona.nombre;
+        }    
     };
     //Paso 5
     llamada.send();
 
+}
+
+class Persona {
+    constructor(nombre, apellidos, fechnac) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.fechNacimiento = fechnac;
+    }
 }
