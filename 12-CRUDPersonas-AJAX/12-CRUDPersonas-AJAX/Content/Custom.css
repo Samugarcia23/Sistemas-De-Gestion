@@ -1,0 +1,25 @@
+﻿body {
+	background-color: lightgray;
+}
+
+table {
+	width: 100%;
+}
+
+td form button.button_left {
+	padding: 0.2em;
+	margin: 0.2em;
+	background: none;
+	color: blue;
+}
+
+td form button.button_right {
+	padding: 0.2em;
+	margin: 0.2em;
+	background: none;
+	color: blue;
+}
+
+.buttons {
+	width: 100px;
+}
