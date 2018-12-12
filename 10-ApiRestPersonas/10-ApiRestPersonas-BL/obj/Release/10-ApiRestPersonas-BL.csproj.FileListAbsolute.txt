@@ -9,3 +9,14 @@ C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestP
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Release\10-ApiRestPersonas-BL.csproj.CopyComplete
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Release\10-ApiRestPersonas-BL.dll
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Release\10-ApiRestPersonas-BL.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\bin\Release\10-ApiRestPersonas-BL.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\bin\Release\10-ApiRestPersonas-BL.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\bin\Release\10-ApiRestPersonas-DAL.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\bin\Release\10-ApiRestPersonas-Entidades.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\bin\Release\10-ApiRestPersonas-DAL.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\bin\Release\10-ApiRestPersonas-Entidades.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Release\10-ApiRestPersonas-BL.csprojAssemblyReference.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Release\10-ApiRestPersonas-BL.csproj.CoreCompileInputs.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Release\10-ApiRestPersonas-BL.csproj.CopyComplete
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Release\10-ApiRestPersonas-BL.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-BL\obj\Release\10-ApiRestPersonas-BL.pdb

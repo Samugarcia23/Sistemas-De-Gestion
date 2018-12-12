@@ -4,3 +4,9 @@ C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestP
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Release\10-ApiRestPersonas-Entidades.csproj.CoreCompileInputs.cache
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Release\10-ApiRestPersonas-Entidades.dll
 C:\Users\sgarcia\Desktop\2DAM\Sistemas De Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Release\10-ApiRestPersonas-Entidades.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\bin\Release\10-ApiRestPersonas-Entidades.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\bin\Release\10-ApiRestPersonas-Entidades.pdb
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Release\10-ApiRestPersonas-Entidades.csprojAssemblyReference.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Release\10-ApiRestPersonas-Entidades.csproj.CoreCompileInputs.cache
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Release\10-ApiRestPersonas-Entidades.dll
+C:\2DAM\SistGestion\1EVALUACION\Sistemas-De-Gestion\10-ApiRestPersonas\10-ApiRestPersonas-Entidades\obj\Release\10-ApiRestPersonas-Entidades.pdb

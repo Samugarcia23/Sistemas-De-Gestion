@@ -18,10 +18,10 @@ namespace _10_ApiRestPersonas_API.Controllers
 		/// Verbo get para peticiones de un listado completo de personas
 		/// </summary>
 		/// <returns>listado de personas</returns>
-		public List<clsPersonaConNombreDeDepartamento> Get()
+		public List<clsPersona> Get()
 		{
-			clsListadoPersonasConNombreDep_BL listadoPersonas_BL = new clsListadoPersonasConNombreDep_BL();
-			return listadoPersonas_BL.listadoCompletoPersonasConNombreDep();
+			clsListadoPersonas_BL listadoPersonas_BL = new clsListadoPersonas_BL();
+			return listadoPersonas_BL.listadoCompletoPersonas_BL();
 		}
 
 		public clsPersona Get (int id)

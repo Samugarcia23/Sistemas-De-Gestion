@@ -12,7 +12,7 @@ function btnLlamar_OnClick() {
     //Paso 1
     var llamada = new XMLHttpRequest();
     //Paso 2
-    llamada.open('GET', "https://10-apirestpersonas-sam.azurewebsites.net/api/personas");
+    llamada.open('GET', "https://10-apirestpersonas-sinnombredep.azurewebsites.net/api/personas");
     //Paso 4
     llamada.onreadystatechange = function () {
         alert(llamada.readyState);
