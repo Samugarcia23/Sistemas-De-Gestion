@@ -3,6 +3,9 @@
 function inicializaEventos() {
 
     cargar();
+    var imported = document.createElement('script');
+    imported.src = '../Scripts/clsPersona.js';
+    document.head.appendChild(imported);
 
 }
 
@@ -14,7 +17,6 @@ function cargar() {
 
     var llamada = new XMLHttpRequest();
     llamada.open('GET', "https://10-apirestpersonas-sam.azurewebsites.net/api/personas");
-    //llamada.open('GET', "https://10-apirestpersonas-sinnombredep.azurewebsites.net/api/personas");
     llamada.onreadystatechange = function () {
         if (llamada.readyState == 4 && llamada.status == 200) {
             var arrayPersonas = JSON.parse(llamada.responseText);
@@ -62,11 +64,6 @@ function rellenarTabla(arrayPersonas) {
  
             var column = document.createElement("td");
             var textoCelda = document.createTextNode(arrayPersonas[i][cols[j]]);
-            /*var input = document.createElement("input");
-            input.setAttribute("type", "text");
-            input.setAttribute("enable", false);
-            input.setAttribute("value", textoCelda);*/
-            //column.appendChild(input);
             column.appendChild(textoCelda);
             row.appendChild(column);
 
@@ -83,10 +80,14 @@ function rellenarTabla(arrayPersonas) {
         textoEditar.setAttribute("class", "button_left");
         i1.setAttribute("class", editSave);
         formButtons1.setAttribute("class", "buttons");
+        textoEditar.setAttribute("name", "botonEditar");
 
         botonEditar.appendChild(formButtons1);
         formButtons1.appendChild(textoEditar);
         textoEditar.appendChild(i1);
+
+        botonEditar.setAttribute("id", arrayPersonas[i].idPersona);
+        botonEditar.addEventListener("click", getPersona, false);
         
 
         //Borrar
@@ -107,7 +108,7 @@ function rellenarTabla(arrayPersonas) {
         textoBorrar.appendChild(i2);
 
         botonBorrar.setAttribute("id", arrayPersonas[i].idPersona);
-        //botonBorrar.addEventListener("click", preguntarBorrar, false);
+        botonBorrar.addEventListener("click", preguntaBorrar, false);
 
 
         row.appendChild(botonBorrar);
@@ -122,19 +123,102 @@ function rellenarTabla(arrayPersonas) {
 
 }
 
-/*function preguntaBorrar() {
+function borrar(idPersona) {
 
-    var modal = document.getElementById('myModal');
-    var boton = document.getElementsByName("botonBorrar");
-    modal.style.display = "block";
+    var llamada = new XMLHttpRequest();
+    llamada.open("DELETE", "https://10-apirestpersonas-sam.azurewebsites.net/api/personas/" + idPersona);
+
+    llamada.onreadystatechange = function () {
+        if (llamada.readyState < 4) { }
+        else {
+            if (llamada.readyState == 4 && miLlamada.status == 204) {
+                inicializaEventos();
+            }
+        }
+    };
+
+    llamada.send();
+
+}
+
+function preguntaBorrar() {
+    var idPersona = this.id;
+    var conf = confirm("¿Borrar la persona seleccionada?");
+    if (conf == true) {
+        borrar(idPersona);
+    } 
+}
+
+function getPersona() {
+    var idPersona = this.id;
+    var persona = new clsPersona();
+
+    var llamada = new XMLHttpRequest();
+    llamada.open("GET", "https://10-apirestpersonas-sam.azurewebsites.net/api/personas/" + idPersona);
+
+    llamada.onreadystatechange = function () {
+
+        var arrayPersonas;
+
+        if (llamada.readyState < 4) { }
+        else {
+            if (llamada.readyState == 4 && llamada.status == 200) {
+                arrayPersonas = JSON.parse(llamada.responseText);
+
+                persona.nombre = arrayPersonas.nombre;
+                persona.apellidos = arrayPersonas.apellidos;
+                persona.fechNacimiento = arrayPersonas.fechNacimiento;
+                persona.direccion = arrayPersonas.direccion;
+                persona.telefono = arrayPersonas.telefono;
+                persona.idDepartamento = arrayPersonas.idDepartamento;
+
+                preparaEditar(persona);
+            }
+        }
+    };
+
+    llamada.send();
+}
+
+function preparaEditar(persona) {
+    document.getElementById('nombre').value = persona.nombre;
+    document.getElementById('apellidos').value = persona.apellidos;
+    document.getElementById('fechNac').value = persona.fechNacimiento;
+    document.getElementById('telefono').value = persona.telefono;
+    document.getElementById('direccion').value = persona.direccion;
+    document.getElementById('idDepartamento').value = persona.idDepartamento;
+
+    var div = document.getElementById('divEditar');
+    var span = document.getElementsByTagName('span');
+
+    div.style.display = "block";
 
     window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
+        if (event.target == div) {
+            div.style.display = "none";
         }
     }
 
-}*/
+    editar(persona);
+
+}
+
+function editar(persona) {
+    var llamada = new XMLHttpRequest();
+    llamada.open("PUT", "https://10-apirestpersonas-sam.azurewebsites.net/api/personas/" + persona.idPersona);
+
+    llamada.onreadystatechange = function () {
+
+        if (llamada.readyState < 4) { }
+        else {
+            if (llamada.readyState == 4 && llamada.status == 200) {
+                inicializaEventos();
+            }
+        }
+    };
+
+    llamada.send();
+}
 
 function cambiarNombres(textoProp) {
 

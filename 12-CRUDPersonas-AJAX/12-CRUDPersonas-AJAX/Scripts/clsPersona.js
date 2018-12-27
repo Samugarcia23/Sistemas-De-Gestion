@@ -5,6 +5,6 @@
         this.fechNacimiento = fechnac;
         this.direccion = direccion;
         this.telefono = telefono;
-        this.iddepartamento = iddep;
+        this.idDepartamento = iddep;
     }
 }

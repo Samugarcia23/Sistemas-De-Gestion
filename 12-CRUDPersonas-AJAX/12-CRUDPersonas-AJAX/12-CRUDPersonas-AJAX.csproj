@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Content\Custom.css" />
     <Content Include="Content\Custom3.css" />
+    <Content Include="Content\TablaEstilos.css" />
     <Content Include="Scripts\clsPersona.js" />
     <Content Include="Scripts\Programacion.js" />
     <Content Include="Views\index.html" />
