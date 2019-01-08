@@ -94,6 +94,9 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\10-ApiRestPersonas-Sam - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\10-ApiRestPersonas-Sam2 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\10-ApiRestPersonas-Sam2 - Web Deploy1.pubxml" />
+    <None Include="Properties\PublishProfiles\10-ApiRestPersonas-Sam3 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\10-ApiRestPersonas-SinNombreDep - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -35,10 +35,10 @@ namespace __10_ApiRestPersonas_DAL.Conexion
         public clsMyConnection()
         {
             // this.server = "(local)";
-            this.server = "serverpersonasdamsg.database.windows.net";
+            this.server = "serverpersonasdamsg2.database.windows.net";
 
-            this.dataBase = "personasDB";
-            this.user = "Prueba";
+            this.dataBase = "personas";
+            this.user = "prueba";
             //this.pass = "123";
             this.pass = "123qweasd!";
 
